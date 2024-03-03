@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Montserrat:wght@300;400&family=Mulish:wght@300;400;700&family=Nunito+Sans:opsz@6..12&family=Nunito:wght@300&family=Pacifico&family=Poppins:wght@300;400;700;900&family=Roboto:wght@300;400;700&family=Satisfy&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1600399507991-c9f51bc7cc2f?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center;
+    height: 100%;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    background:linear-gradient(120deg,#F38181, #FCE38A);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    flex: 1;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    letter-spacing: 2px;
+
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search button img{
+    width:1rem;
+}
+
+.weather h1{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.weather h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.weather .details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    padding-top: 2rem;
+    margin-top: 50px;
+
+}
+
+.weather .weather-icon{
+    width: 170px;
+    margin-top: 20px;
+}
+
+.weather .details p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-top: 8px;
+}
+
+.humidity,.wind{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
